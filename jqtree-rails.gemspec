@@ -8,13 +8,13 @@ Gem::Specification.new do |s|
   s.authors     = ['Ryan Scott Lewis', 'Mario Uher', 'Gordon B. Isnor']
   s.email       = ['ryan@rynet.us', 'uher.mario@gmail.com', 'gordonbisnor@gmail.com']
   s.homepage    = 'https://github.com/gordonbisnor/jqtree-rails'
-  s.summary     = 'Use jqTree with Rails 6.1'
-  s.description = 'This gem provides jqTree assets for your Rails 6 application.'
+  s.summary     = 'Use jqTree with Rails 7'
+  s.description = 'This gem provides jqTree assets for your Rails 7 application.'
 
   s.required_rubygems_version = '>= 1.3.6'
 
   s.files       = `git ls-files`.split("\n")
 
-  s.add_dependency 'railties', '>= 3.2.0', '< 7.2'
+  s.add_dependency 'railties', '>= 3.2.0', '< 8.0'
   s.add_dependency 'thor',     '~> 1.0'
 end
