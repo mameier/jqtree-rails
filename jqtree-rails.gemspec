@@ -15,6 +15,6 @@ Gem::Specification.new do |s|
 
   s.files       = `git ls-files`.split("\n")
 
-  s.add_dependency 'railties', '>= 3.2.0', '< 8.0'
+  s.add_dependency 'railties', '>= 3.2.0'
   s.add_dependency 'thor',     '~> 1.0'
 end
